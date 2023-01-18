@@ -9,9 +9,9 @@ body {
   height: 100vh;
   font-weight: 100;
   background: radial-gradient( #374151, #374151);
-  -webkit-overflow-Y: hidden;
+  /* -webkit-overflow-Y: hidden;
   -moz-overflow-Y: hidden;
-  -o-overflow-Y: hidden;
+  -o-overflow-Y: hidden; */
   overflow-y: hidden;
   -webkit-animation: fadeIn 1 1s ease-out;
   -moz-animation: fadeIn 1 1s ease-out;
@@ -52,7 +52,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   position: absolute;
   width: 0px;
   opacity: .75;
-  background-color: ;
+  background-color: grey;
   box-shadow: azure 0px 0px 20px 2px;
   opacity: 0;
   top: 100vh;
